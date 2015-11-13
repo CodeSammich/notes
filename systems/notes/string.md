@@ -1,6 +1,6 @@
-SOTD: In The Meantime - Spacehog
+#####SOTD: In The Meantime - Spacehog
 
-Aim: Time to stop stringing you along.
+#Aim: Time to stop stringing you along.
 
 Array variable = memory address of first index
 
@@ -33,9 +33,9 @@ C strings (ctrings)
 If you set a pointer = to another pointer, because pointers hold an integer that is a memory address, they WILL point to the same memory
 
 ------------------------------------
-Aim: How to write functioning code
+#Aim: How to write functioning code
 
-Functions: A brief interlude
+####Functions: A brief interlude
 
 	   All c functions are "pass by value"
 	       A parameter is a copy of the variable passed into the function. The original variable is not touched.

@@ -1,3 +1,7 @@
-# APCS-Homework
+# Stuy Notes
 
-APCS homework and related projects, separated by semester.
+**Notes and, if possible, class code**
+- System Level Programming
+- Software Development
+- Macroeconomics
+- APCS

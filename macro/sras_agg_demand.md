@@ -19,9 +19,9 @@ Simplified models focus on the factors that cause shifts, etc.
 
 ###Shifts of Aggregate Demand: Short-Run Effects
 
-**Postive Demand Shock**
+**Demand and Supply Shock**
 
 ![Demand And Supply Shock] (http://worthwhile.typepad.com/.a/6a00d83451688169e201157046d379970b-pi)
 
-- Can go the other way around (negative demand shock and positive supply _shock_ shown)
+- Can go the other way around **(negative demand shock and positive supply _shock_ shown)**
 

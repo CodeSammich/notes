@@ -33,7 +33,8 @@
     - anything else ==> true
 
     **YOU WILL ALL MAKE THIS MISTAKE**  
-		`if( x = 6) {...}`
+
+        if( x = 6) {...}
 	   
 	 - will return number if assigned, 6 == true
 	 - will always be true!

@@ -50,7 +50,7 @@
 `exit` - stops the main code during runtime
 
 ------------------------------
-#####SOTD: Burden in my Hand - Soundgarden
+#####SOTD: Burden in my Hand - Soundgarden  
 #Aim: Invasion of the process snatchers.
 
 - `waitpid - <unistd.h>`

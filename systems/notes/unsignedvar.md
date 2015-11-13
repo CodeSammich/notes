@@ -1,25 +1,28 @@
-IAim: Always read the fine print.
+#Aim: Always read the fine print.
 
-Do Now: Open up your editor of choice (emacs), write a basic "Hello World" program in java.
+#####Do Now: Open up your editor of choice (emacs), write a basic "Hello World" program in java.
 
-Data Types and Variables
-     Character literals are single characters inside ''
-     	   ex. 'a', '*' ...
+###Data Types and Variables
+ - Character literals are single characters inside ''
 
-     String literals exist, even though there is no String data type. ex. "hello", "you smell"
+		'a', '*' ...
 
-     In C, string = array of chars, last element = 0 (null)
+-  String literals exist, even though there is no String data type.
 
-Any variable type can be declared an "unsigned" variable.
-This signifies the variable will never be negative.
-     The lower bound of any unsigned variable is 0.
-     The upper bound will be greater than the signed version.
+		"hello", "you smell"
 
-     ex. unsigned char x;
-     	 0 <= x <= 255
+- In C, string = array of chars, last element = 0 (null)
 
-	 char x;
-	 -128 <= x <= 127 (taking space from negatives)
+- Any variable type can be declared an "unsigned" variable.
+- This signifies the variable will never be negative.
+ - The lower bound of any unsigned variable is 0.
+ - The upper bound will be greater than the signed version.
 
-Variables cannot be declared inside for loops statements, but they can be initialized
+		unsigned char x;
+		0 <= x <= 255
+
+		char x;
+		-128 <= x <= 127 (taking space from negatives)
+
+- Variables cannot be declared inside for loops statements, but they can be initialized
 

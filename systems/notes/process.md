@@ -103,7 +103,7 @@
 
 ### AIM: Let's take this to delimit!
 
-**strsep** - &lt;string.h&gt;
+###**strsep** - `<string.h>`
 used for parsing a string with a common delimeter
 
 ```c

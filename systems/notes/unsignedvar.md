@@ -18,11 +18,11 @@
  - The lower bound of any unsigned variable is 0.
  - The upper bound will be greater than the signed version.
 
-		unsigned char x;
-		0 <= x <= 255
+    		unsigned char x;
+	    	0 <= x <= 255
 
-		char x;
-		-128 <= x <= 127 (taking space from negatives)
+		    char x;
+	    	-128 <= x <= 127 (taking space from negatives)
 
 - Variables cannot be declared inside for loops statements, but they can be initialized
 

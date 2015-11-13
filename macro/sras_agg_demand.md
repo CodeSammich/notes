@@ -13,8 +13,9 @@
 ####Keep in mind...
 
 > For simplification this semester, focus on short-run fluctuations of the business cycles: LRAS is not shifting
-In reality, all curves are generally shifting to the right (price levels going up) and perhaps up..
-
-Question then becomes, **how much are they shifting _relative_ to _each_ other?**
-
+In reality, all curves are generally shifting to the right (price levels going up) and perhaps up..  
+Question then becomes, **how much are they shifting _relative_ to _each_ other?**  
 Simplified models focus on the factors that cause shifts, etc.
+
+
+

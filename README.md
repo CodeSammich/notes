@@ -15,4 +15,4 @@
 | 7 | Software Development | MKS21QJI | Zamansky | 307 | [slack] (https://stuycs.slack.com/messages/softdev/) |
 | 8 | System Level Programming | MKS65C | Dyrland-Weaver | 307 | [homepage] (http://www.stuycs.org/courses/mks65/dw) |
 | 9 | Existentialism | EES87CEE | Mazzurco | 640 | [homepage] (http://www.mazzurco.com/Rosas_Class_Site/Home.html) |
-| 10 | Analytical Chemistry | SCS11QAC | Kivi | 902 | [Textbook] (http://acad.depauw.edu/harvey_web/eText%20Project/AnalyticalChemistry2.0.html) |
+| 10 | Analytical Chemistry | SCS11QAC | Kivi | 902 | [textbook] (http://acad.depauw.edu/harvey_web/eText%20Project/AnalyticalChemistry2.0.html) |

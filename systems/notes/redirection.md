@@ -30,4 +30,19 @@
   - Redirect stdout from one command to stdin of the next
   - Goes from left to right
 
+###Redirection in C Programs
 
+#### `dup2 - <unistd.h>`
+- Redirect one file descriptor to another
+
+		dup2( fd1, fd2 )
+
+ - Redirects fd2 to fd1
+ - You will lose any reference to the original fd2, that file is closed.
+
+#### `dup - <unistd.h>`
+- Duplicates an existing entry in the file table.
+- Returns a new file descriptor for the duplicate entry.
+
+		dup( fd )
+ - returns the new file descriptor 

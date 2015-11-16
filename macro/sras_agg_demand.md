@@ -17,7 +17,7 @@ In reality, all curves are generally shifting to the right (price levels going u
 Question then becomes, **how much are they shifting _relative_ to _each_ other?**  
 Simplified models focus on the factors that cause shifts, etc.
 
-###Shifts of Aggregate Demand: Short-Run Effects
+###Shifts of Aggregate Demand and SRAS: Short-Run Effects
 
 **Demand and Supply Shock**
 
@@ -25,3 +25,6 @@ Simplified models focus on the factors that cause shifts, etc.
 
 - Can go the other way around **(negative demand shock and positive supply _shock_ shown)**
 
+| Negative Supply Shock | Positive Supply Shock |
+|:---------------------:|:---------------------:|
+| leads to stagflation - stagnating productivity with inflating prices | higher output and less upward pressure on prices |

@@ -44,3 +44,11 @@ More hours or more production per hour? Wages was stuck, and accounted for by de
  - interest
  - rent
 
+####Questions
+
+Describe the short-run effects of each of the following shocks on the aggregate price level and on aggregate output.
+
+1. The government sharply increases the minimum wage, raising the wages of many works.
+2. solar energy firms launch a major program of investment spending
+3. Congress raises taxes and cuts spending
+4. Severe weather destroys crop around the world.

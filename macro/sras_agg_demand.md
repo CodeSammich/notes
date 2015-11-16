@@ -1,4 +1,6 @@
-#Aim: How can we use the AD_AS model to illustrate the condition of the macroeconomy?
+#Macroeconomic Equilibrium
+
+##Aim: How can we use the AD_AS model to illustrate the condition of the macroeconomy?
 
 ###Short-Run Macroeconomic Equilibrium
 
@@ -28,3 +30,16 @@ Simplified models focus on the factors that cause shifts, etc.
 | Negative Supply Shock | Positive Supply Shock |
 |:---------------------:|:---------------------:|
 | leads to stagflation - stagnating productivity with inflating prices | higher output and less upward pressure on prices |
+
+> Late 90s expansion: low unemployment without much inflation
+Positive supply shock, but measuring hourly productivity is difficult for salaried employees
+More hours or more production per hour? Wages was stuck, and accounted for by defeat of labor movement --SRAS didn't shift much
+
+![Nonfarm Business Sector] (http://images.christianpost.com/full/84100/nonfarm-business-sector-graph.png)
+
+#####Income
+- wages + salaries
+- property income
+ - profit
+ - interest
+ - rent

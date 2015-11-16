@@ -43,3 +43,4 @@ More hours or more production per hour? Wages was stuck, and accounted for by de
  - profit
  - interest
  - rent
+

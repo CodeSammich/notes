@@ -70,8 +70,7 @@ Describe the short-run effects of each of the following shocks on the aggregate 
   - Boils down to _"How long is the self-correction going to take?"_
 
 > &Delta;initial spending * multiplier = &Delta; total spending
-
-  multiplier = 1 / (MPS) 
+multiplier = 1 / (MPS) 
 
 ####Policy Responses to Demand Shocks
 

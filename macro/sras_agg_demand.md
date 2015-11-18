@@ -69,4 +69,4 @@ Describe the short-run effects of each of the following shocks on the aggregate 
   - Two extremes of the importance of short-run vs. long-run
   - Boils down to _"How long is the self-correction going to take?"_
 
-&Delta;initial spending * multiplier = &Delta total spending
+&Delta;initial spending * multiplier = &Delta; total spending

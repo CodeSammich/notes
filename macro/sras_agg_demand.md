@@ -49,6 +49,24 @@ More hours or more production per hour? Wages was stuck, and accounted for by de
 Describe the short-run effects of each of the following shocks on the aggregate price level and on aggregate output.
 
 1. The government sharply increases the minimum wage, raising the wages of many works.
-2. solar energy firms launch a major program of investment spending
+2. Solar energy firms launch a major program of investment spending
 3. Congress raises taxes and cuts spending
 4. Severe weather destroys crop around the world.
+
+####Long-Run Macroeconomic Equilibrium
+
+**Recessionary Gap**
+- Caused by negative demand shock
+- How can we identify the size of the output gap?
+- Will it self-correct? ==> Overinvestment to _Nash Equilibrium_
+
+**Exchange Rate**
+- If a currency has _appreciated_: the price of the other currency went down
+  - `The same one dollar can buy _more_ of the other currency`
+- If a currency has _depreciated_: the price of the other currency went up
+  - `The same one dollar can buy _less_ of the other currency`  
+- "Neoclassical Synthesis"
+  - Two extremes of the importance of short-run vs. long-run
+  - Boils down to _"How long is the self-correction going to take?"_
+
+&Delta;initial spending * multiplier = &Delta total spending

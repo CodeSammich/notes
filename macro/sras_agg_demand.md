@@ -62,9 +62,9 @@ Describe the short-run effects of each of the following shocks on the aggregate 
 
 **Exchange Rate**
 - If a currency has _appreciated_: the price of the other currency went down
-  - `The same one dollar can buy _more_ of the other currency`
+  - The same one dollar can buy _more_ of the other currency
 - If a currency has _depreciated_: the price of the other currency went up
-  - `The same one dollar can buy _less_ of the other currency`  
+  - The same one dollar can buy _less_ of the other currency  
 - "Neoclassical Synthesis"
   - Two extremes of the importance of short-run vs. long-run
   - Boils down to _"How long is the self-correction going to take?"_

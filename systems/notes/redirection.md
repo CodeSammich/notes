@@ -17,7 +17,7 @@
   
 - `2>`
   - Redirects strerror to a file
-  - Overwrites the file (2>> apends)
+  - Overwrites the file (2>> appends)
   
 - `&>`
   - Redirects stdout and stderr

@@ -76,4 +76,38 @@ A bank is a firm that seeks to make profit just as most firms do, by investing i
 "the bank of banks": commercial banks can borrow or deposit from "Central Bank"
 - Holds a monopoly on legal tender: used to stabilize economy
 
+#####Housing and Banking
 
+More borrowing ==> stronger balance sheets: assets > liabilities ==> adjust leverage (borrow vs. equity) ==> increase in size of equity ==> increase in price level
+
+Banks can become "too big to fail"
+Government had to "bail out" the banks, because without banks, people can't borrow money to invest anymore
+
+**Credit**
+Credit allows for
+- Mututal gains between two parties (lenders and debtors)
+- People to borrow money for the purpose of innovation
+
+Lenders limit the number of loans they give out
+- Contract requiring borrower repay a loan cannot _enforce_ repayment
+- Contracts cannot specify how hard the borrower will work to make projects succeed
+- Borrower's can exaggerate how good the project is and how _hard_ he/she will work
+
+If borrowers have no collateral, banks will be unwilling to give a loan
+
+- Governments can regulate banks by limiting leverages
+- Banks require that borrowers commit borrowers
+
+> Too much collateral requirement can over-limit potential investment and borrowing
+
+###Summary
+
+Banking system, while not popular, benefits everyone
+
+Money allows transfering of _purchasing power_ between agents
+
+Amount agent borrows is based on interest rate, rate of return on investment, and length of contract
+
+More collateral = more chance of loans
+
+Central banks legal tender

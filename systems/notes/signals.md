@@ -36,7 +36,7 @@ Limited way of sending information to a process
  Table of Signals for processes, such as 10 (bus) and 9 (kill program)
 
   |  No |   Name   |      Default Action   |    Description |
-  |----|--------|---------------------|--------------|
+  |:----:|:--------:|:---------------------:|:--------------:|
   |  1  | SIGHUP   |    terminate process  |  terminal line hangup |
   |  2  | SIGINT   |   terminate process   | interrupt program |
   |  3  | SIGQUIT  |   create core image   | quit program |

@@ -1,0 +1,13 @@
+####SOTD: Billie Jean - Michael Jackson
+
+#Aim: Sending mixed signals
+
+###Signals
+
+Limited way of sending information to a process
+
+- `kill`
+  - Command line utility to send a signal to a process
+  - `$ kill <PID>
+	- Sends signal 15 (SIGTERM) to PID
+  

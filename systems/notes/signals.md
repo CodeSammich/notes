@@ -34,7 +34,7 @@ Limited way of sending information to a process
 #### All Signal Numbers
 
   |  No |   Name   |      Default Action   |    Description |
-  |:---:|:--------:|:---------------------:|:--------------:|
+  |:----:|:--------:|:---------------------:|:--------------:|
   |  1  | SIGHUP   |    terminate process  |  terminal line hangup |
   |  2  | SIGINT   |   terminate process   | interrupt program |
   |  3  | SIGQUIT  |   create core image   | quit program |

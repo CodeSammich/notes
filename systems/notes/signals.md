@@ -33,6 +33,8 @@ Limited way of sending information to a process
 
 #### All Signal Numbers
 
+ Table of Signals for processes, such as 10 (bus) and 9 (kill program)
+
   |  No |   Name   |      Default Action   |    Description |
   |:----:|:--------:|:---------------------:|:--------------:|
   |  1  | SIGHUP   |    terminate process  |  terminal line hangup |

@@ -10,24 +10,38 @@ Limited way of sending information to a process
   - Command line utility to send a signal to a process
   - `$ kill <PID>
 	- Sends signal 15 (SIGTERM) to PID
-  
+- `killall [-<SIGNAL>] <PROCESS>`
+  - Sends SIGTERM (or SIGNAL if provided) to all processes with PROCESS as the name
+
+####Signal handling in C programs `<signal.h>`
+
+- `kill`
+  - Send a signal to a process in a C program
+	`kill(<PID>, <SIGNAL>)`
+  - Returns 0 on success or -1 (errno) on failure.
+
+- `sighandler`
+- To work with signals in a C program, you must create a signal handling function.
+  - 
+
+#### All Signal Numbers
   |  No |   Name   |      Default Action   |    Description |
   |:---:|:--------:|:---------------------:|:--------------:|
 |  1   |  SIGHUP   |    terminate process  |  terminal line hangup|
-|  2   |  SIGINT       terminate process   | interrupt program|
- | 3    | SIGQUIT      create core image   | quit program|
-|  4    | SIGILL       create core image|    illegal instruction|
-  |5    | SIGTRAP      create core image |   trace trap|
- | 6    | SIGABRT      create core image  |  abort program (formerly SIGIOT)|
-|  7    | SIGEMT       create core image   | emulate instruction executed|
-  |8    | SIGFPE       create core image    |floating-point exception|
- | 9    | SIGKILL      terminate process|    kill program|
-|  10   | SIGBUS       create core image |   bus error|
-  |11   | SIGSEGV      create core image  |  segmentation violation|
- | 12   | SIGSYS       create core image   | non-existent system call invoked|
-|  13   | SIGPIPE      terminate process    |write on a pipe with no reader|
-  |14   | SIGALRM      terminate process|    real-time timer expired|
- | 15   | SIGTERM      terminate process |   software termination signal|
+|  2   |  SIGINT |      terminate process   | interrupt program|
+ | 3    | SIGQUIT |     create core image   | quit program|
+|  4    | SIGILL   |    create core image|    illegal instruction|
+  |5    | SIGTRAP   |   create core image |   trace trap|
+ | 6    | SIGABRT    |  create core image  |  abort program (formerly SIGIOT)|
+|  7    | SIGEMT      | create core image   | emulate instruction executed|
+  |8    | SIGFPE       |create core image    |floating-point exception|
+ | 9    | SIGKILL|      terminate process|    kill program|
+|  10   | SIGBUS  |     create core image |   bus error|
+  |11   | SIGSEGV  |    create core image  |  segmentation violation|
+ | 12   | SIGSYS    |   create core image   | non-existent system call invoked|
+|  13   | SIGPIPE    |  terminate process    |write on a pipe with no reader|
+  |14   | SIGALRM     | terminate process|    real-time timer expired|
+ | 15   | SIGTERM      |terminate process |   software termination signal|
 |  16   | SIGURG       discard signal     |  urgent condition present on socket|
   |17   | SIGSTOP      stop process        | stop (cannot be caught or ignored)|
  | 18   | SIGTSTP      stop process         |stop signal generated from keyboard|

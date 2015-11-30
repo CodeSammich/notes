@@ -32,6 +32,7 @@ Limited way of sending information to a process
 		}
 
 #### All Signal Numbers
+
   |  No |   Name   |      Default Action   |    Description |
   |:---:|:--------:|:---------------------:|:--------------:|
   |  1   |  SIGHUP   |    terminate process  |  terminal line hangup|

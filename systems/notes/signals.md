@@ -22,7 +22,14 @@ Limited way of sending information to a process
 
 - `sighandler`
 - To work with signals in a C program, you must create a signal handling function.
-  - 
+
+		static void sighandler( int signo ) {
+			
+		}
+
+		main() {
+			signal(...);
+		}
 
 #### All Signal Numbers
   |  No |   Name   |      Default Action   |    Description |

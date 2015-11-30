@@ -39,6 +39,8 @@ Limited way of sending information to a process
   |:----:|:--------:|:---------------------:|:--------------:|
   |  1  | SIGHUP   |    terminate process  |  terminal line hangup |
   |  2  | SIGINT   |   terminate process   | interrupt program |
+
+
   |  3  | SIGQUIT  |   create core image   | quit program |
   |  4  | SIGILL   |   create core image   |    illegal instruction |
   |  5  | SIGTRAP  |   create core image   |   trace trap |

@@ -61,3 +61,14 @@ Financial systems help with development, but individual consumers/firms still ne
 
 >The desire of individuals to reduce their total risk by engaging in diversification is why we have stocks and and a stock market (also to make larger investments possible, e.g. B.E.I.C.)
 
+#### Financial Intermediaries
+
+- Mutual Funds
+- Life Insurance Companies
+- Pension Funds
+  - Private pensions
+  - Public version: _Social Security_
+- Banks
+
+Deposit: Asset for person who deposits, liability for bank
+Bank would take on a liability for liquid assets for investment/interest

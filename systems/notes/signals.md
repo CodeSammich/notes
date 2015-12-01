@@ -70,7 +70,7 @@ Limited way of sending information to a process
 	- `static`
 	  - The function can only be called from within the file it is defined.
 
-> [Sighandler Code] (../../code/smart.c)
+> [Sighandler Code] (
 
 - `signal`
   - After you create the functino, you attach the signals to it using the signal function:

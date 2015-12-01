@@ -8,22 +8,15 @@ Limited way of sending information to a process
 
 - `kill`
   - Command line utility to send a signal to a process
-  - `$ kill <PID>
+  - `$ kill <PID>`
 	- Sends signal 15 (SIGTERM) to PID
-- `killall [-<SIGNAL>] <PROCESS>`
-  - Sends SIGTERM (or SIGNAL if provided) to all processes with PROCESS as the name
-
-####Signal handling in C programs `<signal.h>`
-
-- `kill`
-  - Send a signal to a process in a C program
-	`kill(<PID>, <SIGNAL>)`
+  - `kill(<PID>, <SIGNAL>)`
+    - Send a signal to a process in a C program
   - Returns 0 on success or -1 (errno) on failure.
 
-- `sighandler`
-- To work with signals in a C program, you must create a signal handling function.
 
-[Sighandler Code] (../code/smart.c)
+- `killall [-<SIGNAL>] <PROCESS>`
+  - Sends SIGTERM (or SIGNAL if provided) to all processes with PROCESS as the name
 
 #### All Signal Numbers
 
@@ -67,3 +60,18 @@ Limited way of sending information to a process
 
 #Aim: You want the signal? You can't handle the signal!
 
+###Signal handling in C programs <signal.h>
+
+- `sighandler`
+  - To work with signals in a c program you must create a signal handling function.
+  - Some signals (like SIGKILL) cannot be caught.
+	- `static void sighandler( int signo )`
+	- Must be static, must be void, must take a single int parameter.
+	- `static`
+	  - The function can only be called from within the file it is defined.
+
+> [Sighandler Code] (../../code/smart.c)
+
+- `signal`
+  - After you create the functino, you attach the signals to it using the signal function:
+	- `signal( SIGNUMBER, sighandler)`

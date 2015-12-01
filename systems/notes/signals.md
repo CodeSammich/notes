@@ -35,10 +35,10 @@ Limited way of sending information to a process
 
  Table of Signals for processes, such as 10 (bus) and 9 (kill program)
 
-  | No  | Name | Default Action | Description |
-  |:----:|:--------:|:---------------------:|:--------------:|
-  |  1  | SIGHUP   |    terminate process  |  terminal line hangup |
-  |  2  | SIGINT   |   terminate process   | interrupt program |
+| No  | Name | Default Action | Description |
+|:----:|:--------:|:---------------------:|:--------------:|
+|  1  | SIGHUP   |    terminate process  |  terminal line hangup |
+|  2  | SIGINT   |   terminate process   | interrupt program |
   |  3  | SIGQUIT  |   create core image   | quit program |
   |  4  | SIGILL   |   create core image   |    illegal instruction |
   |  5  | SIGTRAP  |   create core image   |   trace trap |
@@ -68,3 +68,8 @@ Limited way of sending information to a process
   |  29 | SIGINFO  |  discard signal       |status request from keyboard |
   |  30 | SIGUSR1  |   terminate process   | User defined signal 1 |
   |  31 | SIGUSR2  |  terminate process    |User defined signal 2 |
+
+####SOTD: Say it aint so - Weezer
+
+#Aim: You want the signal? You can't handle the signal!
+

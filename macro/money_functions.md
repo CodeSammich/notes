@@ -25,3 +25,9 @@ Commodity Money - physical goods
 Commodity-backed Money - paper that *represented x amounts of gold*, etc.
 Fiat Money - easily produced "commodity-backed money", like paper money + credit, not necessarily representing physical goods > gold > cows
 
+####Functions of Money
+*Medium of Exchange* - bills, etc.
+
+*Store of Value* - storing
+
+*Unit of Account* - description/unit of money with physical good

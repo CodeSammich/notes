@@ -15,7 +15,13 @@ Narrowest definition of money: M1 (*the money supply*, includes M0)
 
 Tradeoff between liquidity and growth (interest)
 
-> Advantages over barter system: doesn't need equivalent ""double necessity"
-"coincidence of wants", but money has universal time
-"universal commodity" ==> universally accepted
-precise value of goods and services
+###Advantages over barter system:
+
+- doesn't need equivalent ""double necessity" or "coincidence of wants", but money has universal time
+- "universal commodity" ==> universally accepted
+- precise value of goods and services
+
+Commodity Money - physical goods
+Commodity-backed Money - gold, etc.
+Fiat Money - easily produced "commodity-backed money", like paper money > gold > cows
+

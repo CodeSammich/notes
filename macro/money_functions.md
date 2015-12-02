@@ -22,6 +22,6 @@ Tradeoff between liquidity and growth (interest)
 - precise value of goods and services
 
 Commodity Money - physical goods
-Commodity-backed Money - gold, etc.
-Fiat Money - easily produced "commodity-backed money", like paper money > gold > cows
+Commodity-backed Money - paper that *represented x amounts of gold*, etc.
+Fiat Money - easily produced "commodity-backed money", like paper money + credit, not necessarily representing physical goods > gold > cows
 

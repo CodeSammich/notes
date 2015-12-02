@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <signal.h>
 
 static void sighandler( int signo ) {
   if (signo == SIGINT) {

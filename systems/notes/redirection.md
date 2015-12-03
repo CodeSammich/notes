@@ -46,3 +46,6 @@
 
 		dup( fd )
  - returns the new file descriptor 
+
+#### `fileno( <PROCESS> )
+- Gets file number of process

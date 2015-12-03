@@ -47,5 +47,7 @@
 		dup( fd )
  - returns the new file descriptor 
 
-#### `fileno( <PROCESS> )`
+#### `fileno - <unistd.h>`
 - Gets file number of process
+
+                fileno( <PROCESS> )

@@ -57,3 +57,36 @@ Most semaphore operations are "atomic", meaning they will not be split up into m
 		example
 		int semd;
 		semd=semget( ftok("file/dir", 2), 1, 0664 | IPC_CREAT);
+
+#Aim: What's a semaphore? - To control resources!
+
+###Semaphore Code
+
+- semctl - `<sys/types.h` `sys/ipc.h>` `<sys/sem.h>`
+  - Control the semaphore, including:
+	- Set the semaphore value
+	- Remove the semaphore
+	- Get the current value
+	- Get information about the semaphore
+
+	`semctl( <DESCRIPTOR>, <INDEX>, <OPERATION> )`
+
+	- *DESCRIPTOR*
+	  - The return value of semget
+	- *INDEX*
+	  - The index of the semaphore you want to control in the semaphore set identified by the descriptor.
+	  - For a simple semaphore, set 0.
+	- *OPERATION*
+	  - One of the following constants (there are others as well)
+	  - `IPC_RMID`: remove the semaphore
+	  - `SETVAL`: Set the value (requires data)
+	  - `SETALL`: Set the value of every semaphore in the set. (requires data)
+	  - `GETVAL`: Returns the value
+	  - `IPC_STAT`: Populate buffer with information about the semaphore. (requires data)
+	- *DATA*
+	  - Variable for setting/storing information about the semaphore. (data type: union semun)
+
+	> Unions are meant to store one of their associated types at any given time.
+
+- You have to declare this union in your main c file on linux machines.
+

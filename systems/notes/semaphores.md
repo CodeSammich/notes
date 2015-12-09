@@ -90,3 +90,37 @@ Most semaphore operations are "atomic", meaning they will not be split up into m
 
 - You have to declare this union in your main c file on linux machines.
 
+#Aim: Turn down or up?
+
+###Semaphore code
+
+- `semop`
+  - Perform seamphore operations (like Up/Down)
+  - All operations performed via semop are atomic (not broken up by any other processor instruction)
+  - `semop( <DESCRIPTOR>, <OPERATION>, <AMOUNT> )`
+	- *DESCRIPTOR*
+	  - See above
+	- *AMOUNT*
+	  - The amount of semaphores you want to operate on in the semaphore set.
+	  - For a single semaphore set, 1.
+	- *OPERATION*
+	  - A pointer to a struct sembuf
+
+			struct sembuf {
+				short sem_op;
+				short sem_num;
+				short sem_flg;
+			}
+				
+	   - `sem_num`
+		 - The index of the semaphore you want to work on.
+	   - `sem_op`
+		 - -1: Down(S)
+		 - 1: Up(S)
+		   - Any -/+ number will work, you will be requesting/releasing that value from the semaphore
+		 - 0: Block until the semaphore reaches 0
+	   - `sem_flg`
+		 - Provide further options
+		 - `SEM_UNDO`: Allow the OS to undo the given operation. Useful in the event that a program exists before it could release a semaphore.
+		 - `IPC_NOWAIT`: Instead of waiting for the semaphore to be available, return an error.
+		 

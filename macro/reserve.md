@@ -57,3 +57,5 @@ money multiplier = 1 / rr = 1 / (reserves / checkable deposits) = _checkable dep
 > checkable deposits / reserves
 
 ![Federal Loan Ratio] (https://research.stlouisfed.org/fred2/graph/fredgraph.png?g=2RbE)
+
+

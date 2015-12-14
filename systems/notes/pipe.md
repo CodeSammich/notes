@@ -16,4 +16,11 @@
 	- _descriptors_
 	  - Array that will contain the descriptors for each end of the pipe
 
-
+###Named Pipes
+- Also known as FIFOs
+- Same as unnamed pipes except FIFOs have a name that can be used to identify them via different programs
+- Keep in mind that like unnamed pipes, FIFOs are unidirectional
+- `mkfifo`
+  - Shell command to make a FIFO
+  - `$ mkfifo <pipe name>`
+  - 

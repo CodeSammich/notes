@@ -23,4 +23,5 @@
 - `mkfifo`
   - Shell command to make a FIFO
   - `$ mkfifo <pipe name>`
-  - 
+
+

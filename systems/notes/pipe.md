@@ -24,4 +24,12 @@
   - Shell command to make a FIFO
   - `$ mkfifo <pipe name>`
 
+#Aim: A pipe by any other name...
 
+###Named Pipes
+- `mkfifo - <sys/types.h> <sys/stat.h>`
+  - C function to create a FIFO
+  - Returns 0 on success and -1 on failure
+  - Once created, the FIFO acts like a regular file, and we can use open, read, write, and close on it
+  - `mkfifo( <name>, <permissions> )`
+  

@@ -17,6 +17,8 @@ int main() {
   from_client = open( "mario", O_RDONLY );
   printf("<server> pipe open\n");
 
+  remove("mario");
+  
   read( from_client, line, sizeof(line));
   printf("<server> read: [%s]\n", line);
 

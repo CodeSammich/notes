@@ -35,3 +35,10 @@ Fed sells bonds at lower prices, increases supply of bonds if there is a high qu
 
 ###Two Models of the Interest Rate
 
+#Aim: How are the suply and demand of loanable funds determined?
+
+###Loanable Funds
+
+#####The Market for Loanable Funds
+Use real interest rate for market for loanable funds
+Nobody really cares about nominal interest rate

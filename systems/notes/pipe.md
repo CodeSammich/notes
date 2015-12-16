@@ -32,4 +32,23 @@
   - Returns 0 on success and -1 on failure
   - Once created, the FIFO acts like a regular file, and we can use open, read, write, and close on it
   - `mkfifo( <name>, <permissions> )`
-  
+
+#Aim: Always remember to tip your servers
+
+###Server/Client Program Paradigms
+
+######Handshake
+- A procedure to ensure that a connection has been established
+- Both ends of the connection must verify that they can send and receive data to and from each other
+
+*Basic Handshake Procedure*:
+1. Server creates a named pipe (Well Known Pipe)
+2. Server waits for a connection
+3. Client creates a "private" named pipe
+4. Client connects to server and sends the private pipe name
+5. Client waits for private pipe connection
+6. Server receives client's message and removes the WKP
+7. Server connects to client pipe, sending an initial acknowledgement message.
+8. Client receives server's message, removes its private pipe.
+
+

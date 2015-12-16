@@ -33,4 +33,5 @@ Completely *independent* of the interest rate
 
 Fed sells bonds at lower prices, increases supply of bonds if there is a high quantity of money
 
+###Two Models of the Interest Rate
 

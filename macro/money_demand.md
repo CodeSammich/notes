@@ -29,6 +29,8 @@ Liquidity Preference Model of the Interest Rate
 Fed can control money supply, so vertical curve
 Completely *independent* of the interest rate
 
-![Equilibrium Interest Rate] (http://www.compilerpress.ca/ElementalEconomics/images/R&L%202012/Ch.%2028/fig28-03.gif)
+![Equilibrium Interest Rate] (http://www.economicsonline.co.uk/Global%20macro-economics%20graphs/Liquidity+preference.png)
+
+Fed sells bonds at lower prices, increases supply of bonds if there is a high quantity of money
 
 

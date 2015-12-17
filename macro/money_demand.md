@@ -45,4 +45,4 @@ Nobody really cares about nominal interest rate
 
 ![Supply and Demand for Loanable Funds] (loanable_model.jpeg)
 
-![Loanable Market Model] (loan_funds_model.jpg)
+![Loanable Market Model] (loan_funds_model.png)

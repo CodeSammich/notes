@@ -43,6 +43,6 @@ Fed sells bonds at lower prices, increases supply of bonds if there is a high qu
 Use real interest rate for market for loanable funds
 Nobody really cares about nominal interest rate
 
-![Supply and Demand for Loanable Funds] (loanable_model.jpg)
+![Supply and Demand for Loanable Funds] (loanable_model.jpeg)
 
 

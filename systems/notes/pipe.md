@@ -51,4 +51,10 @@
 7. Server connects to client pipe, sending an initial acknowledgement message.
 8. Client receives server's message, removes its private pipe.
 
+#Aim: Sometimes you have to ask your server for another fork
+
+###Basic Server
+1. Basic Handshake
+2. Server gets data from client, "processes" it and sends back a response
+3. Once the client exists, the server recreates a new WKP, removes the old client connections and the steps restart.
 

@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-int client_handshake( int *from_server ) {
+int server_handshake( int *from_client ) {
 
   int to_server;
   char buffer[100];
@@ -17,34 +17,36 @@ int client_handshake( int *from_server ) {
   to_server = open( "mario", O_WRONLY );
   write( to_server, buffer, sizeof(buffer) );
 
-  *from_server = open( buffer, O_RDONLY );
+  *from_client = open( buffer, O_RDONLY );
   remove( buffer );
 
-  read( *from_server, buffer, sizeof(buffer) );
+  read( *from_client, buffer, sizeof(buffer) );
   printf("<client> connection established:[%s]\n", buffer );
 
   return to_server;
 }
 
 int main() {
-  int to_server;
-  int from_server;
-  char buffer[100];
 
-  to_server = client_handshake( &from_server);
+  int to_client;
+  int from_client;
+  char buffer[100];
 
   while (1) {
 
-    printf("<client> enter stuff: ");
-    fgets( buffer, sizeof(buffer), stdin);
-    write( to_server, buffer, sizeof(buffer) );
-    read( from_server, buffer, sizeof(buffer) );
-    printf( "<client> received: %s\n", buffer);
+    printf("<server> waiting for connection");
+    to_client = server_handshake( &from_client );
 
+    while( read( from_client, buffer, sizeof(buffer))) {
+
+      printf("<server> received [%s]\n", buffer );
+      write( to_client, buffer, sizeof(buffer) );
+
+      strncpy( buffer, "", sizeof(buffer));
+    }
   }
 
-  close( to_server );
-  close( from_server );
+  close( to_client );
 
   return 0;
 }

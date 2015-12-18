@@ -58,3 +58,15 @@
  2. Server gets data from client, "processes" it and sends back a response
  3. Once the client exists, the server recreates a new WKP, removes the old client connections and the steps restart.
 
+###Forking Server
+- Main server forks off dedicated subservers for each client connection
+- Allows for simultaneous clients
+- Handshake procedure is modified on the server:
+
+ 1 - 6 are the same
+ 7. Server forks off a subserver
+ 8. `Subserver` connects to client pipe, sending an initial acknowledgement message.
+ 
+- After the Handshake:
+  - Main server create a new WKP and waits for a new client.
+  

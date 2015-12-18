@@ -42,19 +42,19 @@
 - Both ends of the connection must verify that they can send and receive data to and from each other
 
 *Basic Handshake Procedure*:
-1. Server creates a named pipe (Well Known Pipe)
-2. Server waits for a connection
-3. Client creates a "private" named pipe
-4. Client connects to server and sends the private pipe name
-5. Client waits for private pipe connection
-6. Server receives client's message and removes the WKP
-7. Server connects to client pipe, sending an initial acknowledgement message.
-8. Client receives server's message, removes its private pipe.
+ 1. Server creates a named pipe (Well Known Pipe)
+ 2. Server waits for a connection
+ 3. Client creates a "private" named pipe
+ 4. Client connects to server and sends the private pipe name
+ 5. Client waits for private pipe connection
+ 6. Server receives client's message and removes the WKP
+ 7. Server connects to client pipe, sending an initial acknowledgement message.
+ 8. Client receives server's message, removes its private pipe.
 
 #Aim: Sometimes you have to ask your server for another fork
 
 ###Basic Server
-1. Basic Handshake
-2. Server gets data from client, "processes" it and sends back a response
-3. Once the client exists, the server recreates a new WKP, removes the old client connections and the steps restart.
+ 1. Basic Handshake
+ 2. Server gets data from client, "processes" it and sends back a response
+ 3. Once the client exists, the server recreates a new WKP, removes the old client connections and the steps restart.
 

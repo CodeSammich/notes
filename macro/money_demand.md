@@ -47,13 +47,13 @@ Nobody really cares about nominal interest rate
 
 ![Loanable Market Model] (loan_funds_model.png)
 
-"Crowding out": too little investment funds to loan to businesses
+*"Crowding out"*: too little investment funds to loan to businesses
 
 *Affect Loanable Funds Supply/Demand Curve*
-1. There is an increase in capital inflows: supply curve shift right (more loanable funds, capital actually means money this time)
-2. Businesses are pessimistic about future business conditions: shift demand curve left
-3. The government increases borrowing: demand increases, shifts right
-4. The private savings rate decreases: demand curve shifts right
+ 1. There is an increase in capital inflows: supply curve shift right (more loanable funds, capital actually means money this time)
+ 2. Businesses are pessimistic about future business conditions: shift demand curve left
+ 3. The government increases borrowing: demand increases, shifts right
+ 4. The private savings rate decreases: demand curve shifts right
 
 ###Inflation and Interest Rates
 >Real Interest = Nominal Interest - Inflation
@@ -71,3 +71,4 @@ Nobody really cares about nominal interest rate
 _Implication_: the loanable funds market (in real terms) is not affected by changes in expected inflation
 
 ![Fischer Effect] (fischer.png)
+

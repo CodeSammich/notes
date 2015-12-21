@@ -72,3 +72,8 @@ _Implication_: the loanable funds market (in real terms) is not affected by chan
 
 ![Fischer Effect] (fischer.png)
 
+###Two Interest Models
+
+![Interest Models] (interest_models.png)
+
+

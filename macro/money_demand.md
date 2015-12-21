@@ -49,4 +49,25 @@ Nobody really cares about nominal interest rate
 
 "Crowding out": too little investment funds to loan to businesses
 
+*Affect Loanable Funds Supply/Demand Curve*
+1. There is an increase in capital inflows: supply curve shift right (more loanable funds, capital actually means money this time)
+2. Businesses are pessimistic about future business conditions: shift demand curve left
+3. The government increases borrowing: demand increases, shifts right
+4. The private savings rate decreases: demand curve shifts right
 
+###Inflation and Interest Rates
+>Real Interest = Nominal Interest - Inflation
+
+`r% = i% - (pi)%`
+
+*The Fisher Effect*
+- expected real interest is unaffected by changes in expected inflation
+- because those expectations shift supply left and demand right
+
+`Nominal Interest = Expect Real Interest + Expected Inflation`
+
+`i% = exp. r% + exp. pi(%)`
+
+_Implication_: the loanable funds market (in real terms) is not affected by changes in expected inflation
+
+![Fischer Effect] (fischer.png)

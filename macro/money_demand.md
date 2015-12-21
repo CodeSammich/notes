@@ -70,7 +70,7 @@ Nobody really cares about nominal interest rate
 
 _Implication_: the loanable funds market (in real terms) is not affected by changes in expected inflation
 
-![Fischer Effect] (fischer.png)
+![Fisher Effect] (fisher.png)
 
 ###Two Interest Models
 

@@ -12,3 +12,6 @@ Contractionary policies increase budget balance
 
 A dollar of G has greater impact on AD than a dollar of T
 
+![Deficit History] (deficit.png)
+
+

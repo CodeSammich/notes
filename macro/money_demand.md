@@ -80,11 +80,3 @@ _Implication_: the loanable funds market (in real terms) is not affected by chan
 
 Don't use expansionary policy after reaching full employment or *past* LRAS
 
-#Aim: Who cares about public debt?
-
-T > G + Transfers, then surplus
-T < G + Transfers, then deficit
-
-Are deficits or surpluses good or bad?
-
-

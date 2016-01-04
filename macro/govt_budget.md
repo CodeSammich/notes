@@ -20,3 +20,5 @@ If budget balance = 0; gov't is collecting same taxes to budget
 If > 0; surplus == more taxes/revenue than budget spending
 If < 0; deficit, etc.
 
+*Crowding out* ==> more gov't borrowing, higher interest rates, discourages individual borrowing/investment
+

@@ -14,4 +14,9 @@ A dollar of G has greater impact on AD than a dollar of T
 
 ![Deficit History] (deficit.png)
 
+###The Business Cycle and Cyclically Adjusted Budget Balance
+
+If budget balance = 0; gov't is collecting same taxes to budget
+If > 0; surplus == more taxes/revenue than budget spending
+If < 0; deficit, etc.
 

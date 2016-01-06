@@ -60,3 +60,19 @@ Multiple computers connect to a single hub or switch
 #Aim: Cisco in an hour III: in 3-D!
 
 Data Link Layer (2)
+
+Point-to-point transmission between devices on the same (local) network
+
+Each device is given a unique 6-byte MAC (Media Access Control) address, this is set on each network card when they are made.
+
+Data is packaged into frames
+
+- _Ethernet Frames:_
+`<prefix><dest><source><...>< data ><checksum>`
+`    8B    6B    6B      6B   46-1500B   4B `
+
+ - prefix: 10101010 x7 + 10101011
+ - destination/source: MAC addresses 
+ - ...: Information about frame type
+ - checksum: to ensure data integrity
+ 

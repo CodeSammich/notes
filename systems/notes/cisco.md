@@ -76,3 +76,6 @@ Data is packaged into frames
  - ...: Information about frame type
  - checksum: to ensure data integrity
  
+ _MTU_
+ Maximum Transmission Unit
+ 1500 Bytes for ethernet

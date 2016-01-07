@@ -79,3 +79,18 @@ Data is packaged into frames
  _MTU_
  Maximum Transmission Unit
  1500 Bytes for ethernet
+
+#Aim: Cisco in an hour IV: A New Hope
+
+###Network Layer (3)
+Transmission of data between two separate networks
+
+Major features of this layer are addressing, routing, and packet forwarding.
+
+Is not concerned with whether or not data was sent successfully (connectionless).
+
+- IP (internet protocol) addresses
+ - IPv4: 4 byte address
+  - [0-255] . [0-255] . [0-255] . [0-255]
+  
+  

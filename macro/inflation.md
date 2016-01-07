@@ -73,3 +73,10 @@ If unemployment is super high, inflation expectations will go down and bargainin
 There _is_ a *Stable Rate of Unemployment*
 - *Target Rate of Inflation* tries to keep the economy stable
   - governments will be basing monetary policies to keep unemployment, etc. stable
+
+#Aim: How can we model the causes of inflation?
+
+###The Classical Model of Money and Prices
+
+
+

@@ -78,5 +78,12 @@ There _is_ a *Stable Rate of Unemployment*
 
 ###The Classical Model of Money and Prices
 
+Inflation = price level increasing:
 
+ - Output going up: demand going up
+ - Output going down: SRAS going down
 
+ At Actual Output == Potential Output, then Actual umeployment ==  Natural Rate of Unemployment 
+ Actual < Natural if actual > potential
+
+ 

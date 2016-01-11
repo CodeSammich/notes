@@ -138,4 +138,8 @@ IPv6
   - All existing IPv4 addresses can be written like this :
 > 0000 : 0000 : 0000 : ffff : 149.89.150.100
 
-
+MTU
+ - ~4.3 billion (2^32)
+ - Also referred to as jumbograms
+ 
+ 

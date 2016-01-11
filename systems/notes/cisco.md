@@ -106,6 +106,7 @@ Is not concerned with whether or not data was sent successfully (connectionless)
 ###Network Layer (3)
 
 Data is broken into packets
+
 | Packets | of | Code | Size |
 |:-------:|:--:|:----:|:----:|
 | `<header info>` |  `<packet length>` | `<fragment info>` | |
@@ -116,3 +117,7 @@ Data is broken into packets
 |     4B            |  4B  | 4B     |     20 - 65,535B| 
 
 header info: packet type (IPv4/6), header length...
+
+fragment info: Full payloads may be broken up, this will have total # of fragments as well as which fragment the current packet contains
+
+

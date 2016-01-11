@@ -106,11 +106,13 @@ Is not concerned with whether or not data was sent successfully (connectionless)
 ###Network Layer (3)
 
 Data is broken into packets
-|Line of Code | and | Size | |
-|:--:|:---:|:---:|:---:|
-| `<header info>` |  `<packet length>` | `<fragment info>` |
-|     2B   |           2B |            4B|
-| `<time-to-live>` | `<protocol>` | `<header checksum>`|
-|     1B            |  1B            | 2B|
-| `<source>` |`<destination>`|` <...>      <data>`|
-|     4B            |  4B  | 4B     |     20 - 65,535B|
+| Packets | of | Code | Size |
+|:-------:|:--:|:----:|:----:|
+| `<header info>` |  `<packet length>` | `<fragment info>` | |
+|     2B   |           2B |            4B| | 
+| `<time-to-live>` | `<protocol>` | `<header checksum>`| |
+|     1B            |  1B            | 2B| |
+| `<source>` |`<destination>`|` <...>      <data>`| |
+|     4B            |  4B  | 4B     |     20 - 65,535B| 
+
+header info: packet type (IPv4/6), header length...

@@ -116,8 +116,26 @@ Data is broken into packets
 | `<source>` |`<destination>`|` <...>      <data>`| |
 |     4B            |  4B  | 4B     |     20 - 65,535B| 
 
-header info: packet type (IPv4/6), header length...
+*header info*: packet type (IPv4/6), header length...
 
-fragment info: Full payloads may be broken up, this will have total # of fragments as well as which fragment the current packet contains
+*fragment info*: Full payloads may be broken up, this will have total # of fragments as well as which fragment the current packet contains
+
+*time to live*: Maximum # of hops before the packet dies
+
+*protocol*: TCP/UDP/...
+
+...:optional information depending on type of packet
+
+IP MTU is 65,535B
+
+IPv6
+- Now 20 years old
+- Designed to overcome the limitations of IPv4
+- Addresses
+  - Address space goes from 2^32 --> 2^128
+  - Addresses are written as groups of 4 hexadecimal digits
+  - 87ab : 301c : b251 : ...
+  - All existing IPv4 addresses can be written like this :
+> 0000 : 0000 : 0000 : ffff : 149.89.150.100
 
 

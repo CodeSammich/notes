@@ -93,4 +93,24 @@ Is not concerned with whether or not data was sent successfully (connectionless)
  - IPv4: 4 byte address
   - [0-255] . [0-255] . [0-255] . [0-255]
   
-  
+#Aim: Cisco in an hour: V for Vendetta
+
+###Network Layer 
+* IP (Internet Protocol) addresses
+- IPv4: 4 byte address
+ - [0-255] . [0-255] .  [0-255] . [0-255]
+ - Routing is made easier by having IP addresses distributed to in blocks
+ 
+#Aim: Cisco in an hour VI: The Undiscovered Country
+
+###Network Layer (3)
+
+Data is broken into packets
+|Line of Code | and | Size | |
+|:--:|:---:|:---:|:---:|
+| `<header info>` |  `<packet length>` | `<fragment info>` |
+|     2B   |           2B |            4B|
+| `<time-to-live>` | `<protocol>` | `<header checksum>`|
+|     1B            |  1B            | 2B|
+| `<source>` |`<destination>`|` <...>      <data>`|
+|     4B            |  4B  | 4B     |     20 - 65,535B|

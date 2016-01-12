@@ -141,7 +141,43 @@ IPv6
 MTU
  - ~4.3 billion (2^32)
  - Also referred to as jumbograms
- 
+
+#Aim: Cisco inan hour VII: Adrian's Revenge
+
 ###Transport Layer (4)
 
-Computer to 
+Computer to computer connection over multiple networks.
+
+Unconcerned with the individual hops of layer 3 traffic.
+
+Each IP address has multiple ports
+ - 65,535 ports
+ - ports < 1024 are well known, reserved ports
+ - Regulated by the Internet Assigned numbers Authority (IANA)
+ 
+###TCP
+*Transmission Control Protocol*
+- Reliable connection
+ - Both sides are verified to receive/send information
+ - Guarantees delivery of data
+ - Data is considered a continuous stream that arrives in the order it is sent (which may not be true in the upper layers)
+ - Connections are established using a 3-way handshake:
+  - Server "binds" to a port and waits
+ 1. Client sends a SYN message to the server
+ 2. Server sends the client a SYN_ACK message
+ 3. Client sends an ACK message to the server
+
+| | Read | Write |
+|:-:|:--:|:-----:|
+|Server | Knows by step 1  | Knows by step 3 |
+|Client | Knows by step 2  | Knows by step 2 |
+
+Once this is done, the connection is established and data can flow freely between the two machines
+
+###UDP
+*User Datagram Protocol*
+- Does not require an explicit connection
+- Data is sent as discrete datagrams with a set size (as opposed to a continuous stream)
+- Datagrams may be dropped, or received out of order
+- UDP connections are faster because they do not need to be reassembled at the other end
+- Assumes that any kind of error checking is handled at levels 5-7

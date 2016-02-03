@@ -12,3 +12,10 @@
 |Lossy | Lossless | 
 |:----:|:--------:|
 | loses some original information | retains all the original information |
+| _jpg/jpeg_ | _bmp, tiff_ |
+
+*Run-Length Encoding*
+
+| Raster | Vector |
+|:------:|:------:|
+| represented as a grid of pixels | represented as a list of drawing instructions  |

@@ -19,3 +19,14 @@
 | Raster | Vector |
 |:------:|:------:|
 | represented as a grid of pixels | represented as a list of drawing instructions  |
+
+###Netpbm .ppm
+
+#####Headers
+P3 
+XRES YRES
+`MAX_COLOR_VALUE`
+
+#####Body
+R G B R G B R G B 
+

@@ -71,3 +71,19 @@ d = A + .5B
 | d = Ax + By + C + A |  d = Ax + A + By + B + C    |
 |     f( x, y ) |  f( x, y) + A + B |
 | d = d + A |  d + A + B   |
+
+###Third Draft
+
+	(x0, y0) -> (x1, y1)
+
+	x = x0, y = y0
+	d = A + .5B
+	
+	while( x <= x1 ) {
+		plot( x, y )
+		if( d > 0)
+			y += 1
+			d += B
+		x += 1
+		d += A 
+	}

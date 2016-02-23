@@ -87,3 +87,55 @@ d = A + .5B
 		x += 1
 		d += A 
 	}
+	
+### First Octant Algorithm
+
+	(x0, y0) -> (x1, y1)
+
+	x = x0, y = y0
+	d = 2A + B
+	
+	while( x <= x1 ) {
+		plot( x, y )
+		if( d > 0)
+			y += 1
+			d += 2B
+		x += 1
+		d += A 
+	}
+ 
+### Second Octant
+
+	m > 1
+	
+	( x, y + 1 )
+	( x + 1, y + 1 )
+	:( x + .5, y + 1 )
+	
+### Second Quadrant Algorithm Included
+
+	(x0, y0) -> (x1, y1)
+
+	x = x0, y = y0
+	d = A + 2B
+	
+	while( y <= y1 ) {
+		plot( x, y )
+		if( d < 0)
+			x += 1
+			d += 2BA
+		y += 1
+		d += B 
+	}
+
+*initial d*
+f( x0 + .5, y0 + 1 )
+Ax0 + By0 + C + .5A + B
+.5A + B ==> A + 2B
+
+	<midpoint>
+		if d = 0: on the line
+		if d < 0: to the left
+		if d > 0: to the right
+		
+	

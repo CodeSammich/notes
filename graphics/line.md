@@ -90,6 +90,12 @@ d = A + .5B
 	
 ### First Octant Algorithm
 
+A = dy
+B = -dx
+
+dy = (y1 - y0)
+dx = (x1 - x0)
+
 	(x0, y0) -> (x1, y1)
 
 	x = x0, y = y0
@@ -101,7 +107,7 @@ d = A + .5B
 			y += 1
 			d += 2B
 		x += 1
-		d += A 
+		d += 2A 
 	}
  
 ### Second Octant
@@ -111,6 +117,8 @@ d = A + .5B
 	( x, y + 1 )
 	( x + 1, y + 1 )
 	:( x + .5, y + 1 )
+	
+
 	
 ### Second Quadrant Algorithm Included
 
@@ -123,7 +131,7 @@ d = A + .5B
 		plot( x, y )
 		if( d < 0)
 			x += 1
-			d += 2BA
+			d += 2*A
 		y += 1
 		d += B 
 	}

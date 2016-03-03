@@ -68,6 +68,8 @@ Single multiplication routine scales the whole matrix (coordinates of the shape,
   1 ]      0 0 0 1         1    ]
 
 ###Rotating
+
+#####Z Rotation
 ( x, y, z ) ==============> ( ?, ?, z )
             R( axis, angle)
 			R( z, angle )
@@ -80,8 +82,47 @@ Angle to x-axis is phi
  xr = rcos( phi + beta ) = rcos(phi) * cos(beta) - rsin(phi) * sin(beta) = xcos(beta) - ysin(beta) 
  yr = rsin( phi + beta ) = rsin(phi) * cos(beta) + rcos(phi) * sin(beta) = ycos(beta) + xsin(beta)
  
- [ x     [ cos(beta)  -sin(beta)  0  0        [ x        [  xcos(beta - ysin(beta))
+ [ x     [ cos(beta)  -sin(beta)  0  0        [ x        [  xcos(beta) - ysin(beta)
    y   *   sin(beta)   cos(beta)  0  0    =     y     =     xcos(beta) + xsin(beta) 
    z          0           0       1  0          z                      z
    1 ]]       0           0       0  1 ]        1 ]                    1            ]
+
+#####X Rotation
+( x, y, z ) =================> ( x, ycos(beta) - zsin(beta), ysin(beta) + zcos(beta)  )
+	        R( x, beta)
+
+[ 1    0           0        0
+  0 cos(beta) ] -sin(beta)  0
+  0 sin(beta)   cos(beta)   0
+  0    0        0           1 ]
+  
+#####Y Rotation
+(x, y, z) ===================> (xcos(beta) - zsin(beta), y, xsin(beta) + zcos(beta) )
+          R( y, beta )
+		  
+[ cos(beta)     0        -sin(beta)     0 
+      0         1            0          0
+  sin(beta)     0         cos(beta)     0 
+      0         0            0          1 ]
+
+###Apply Transformation (Fine Transformations)
+E0: Edge Matrix T: Translations
+S: Scaling  R: Rotation
+
+*Fine Transformation* -- key: Order of vertices doesn't change
+
+T * E0 = E1: translated
+S * E1 = E2 * translated ==> scaled
+R * E2 = E3 * translated ==> rotated
+
+E3 = R * E2
+         ||
+		 S * E1
+		     ||
+			 T * E0
+E3 = R * S * T * E0
+
+Translated => Scaled => Rotated: Work inside out!
+
+E3 = *Massive Transformation Matrix* * E0
 

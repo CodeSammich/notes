@@ -92,7 +92,7 @@ Angle to x-axis is phi
 	        R( x, beta)
 
 [ 1    0           0        0
-  0 cos(beta) ] -sin(beta)  0
+  0 cos(beta)   -sin(beta)  0
   0 sin(beta)   cos(beta)   0
   0    0        0           1 ]
   

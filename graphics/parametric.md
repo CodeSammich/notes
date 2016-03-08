@@ -28,3 +28,20 @@ t: 0 -> 1
 			y0 = y;
 		}
 	}
+
+###Herite Inputs
+
+P0, P1: Endpoints
+R0, R1: Rates of chance at each endpoint
+
+####Hermite Curves
+f(t) = at^3 + bt^2 + ct + d `Points on the curve`
+f'(t) = 3at^2 + 2bt + c `Rates of change`
+
+When t = 0
+f(t) = d `Initial point`
+f'(t) = c `Initial slope r0`
+
+When t = 1
+f(t) = d `End point`
+f'(t) = c `End slope r1`

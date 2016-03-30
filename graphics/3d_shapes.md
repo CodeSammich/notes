@@ -76,3 +76,24 @@ add-point --> add-point
 add-edge --> add-polygon
 	
 *points must be in counterclockwise order*
+
+### Polygon Meshes
+//First --> front two triangles of a box
+P0, P1, P2
+P2, P3, P0 
+
+//Back  --> back two triangles of a box
+P7, P5, P4
+P7, P6, P5
+
+### Sphere
+P0 to P9 clockwise circle
+Then you can rotate to create P10 - P19 respectively
+
+In order to go counterclockwise, zoom in on latitude 
+Triangles from P1, P2, P12 and P1, P12, P11
+
+Generalized form:
+	i, i + 1, i + n + 1
+	i, i + n + 1, i + n
+

@@ -97,3 +97,41 @@ Generalized form:
 	i, i + 1, i + n + 1
 	i, i + n + 1, i + n
 
+### Backface Culling
+The process of rendering only the surfaces that are facing forward
+The surface normal (N^) shows the direction a surface is "facing"
+
+*^ is a vector*
+
+The view vector/camera (V^) shows the direction of the observer
+
+If 90 < theta < 270
+Then draw the surface ("front-face sifting")
+
+##### Algorithm Normal Vector
+ 1. Calculate ^N
+ - Cross product of 2 vectors that share a common endpoint and go in different directions, must be ccw points
+
+ 2. Find theta between N^ and V^ (viewer line)
+ 3. If 90 < theta < 270, draw the polygon (_visible range_)
+
+A^ = P1 - P0
+	< x1 - x0, y1 - y0, z1 - z0 >
+	
+B^ = P2 - P0
+	< x2 - x0, y2 - y0, z2 - z0 >
+	
+A^ x B^ = < AyBz - AzBy,
+	        AzBx - AxBz,
+			AxBy - AyBx >
+N^ = < Nx, Ny, Nz > ##Points out from the surface
+
+
+##### Algorithm View Vector
+V^ = < 0, 0, -1 >
+N^ * V^ =  (|N||V|) * cos(theta)
+	         ^Always > 0
+cos(theta) < 0 *IF* 90 < theta < 270
+
+N^*V^ = NxVx + NyVy + NzVz
+cos(theta) < 0 -> 90 < theta < 270

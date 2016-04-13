@@ -4,15 +4,15 @@
 - But in a relative coordinate system, each object can have its own origin/coordinate
 - We will use a stack to store the various coordinate systems
 
-P -> | 1 0 0 0 | -> P
-	 | 0 1 0 0 |
-	 | 0 0 1 0 |
-	 | 0 0 0 1 |
+		P -> | 1 0 0 0 | -> P
+			 | 0 1 0 0 |
+		     | 0 0 1 0 |
+			 | 0 0 0 1 |
 	 
-P -> | 1 0 0 3 | -> P ( x + 3, y + 2 )
-     | 0 1 0 2 | 
-	 | 0 0 1 0 |
-	 | 0 0 0 1 |
+		P -> | 1 0 0 3 | -> P ( x + 3, y + 2 )
+			 | 0 1 0 2 | 
+			 | 0 0 1 0 |
+			 | 0 0 0 1 |
 
 ### Graphics Framework
 A. Transformations are applied to the top of the stack

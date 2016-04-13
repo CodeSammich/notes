@@ -23,6 +23,6 @@ C. Drawing Pipeline:
 	3. Draw the object to the screen
 	4. Clear the point matrix
 	
-![Stack Follow](images/stack.jpg = 500 x 500)
+![Stack Follow](images/stack.jpg =500 x 500)
 ![Stack Follow 2](images/stack2.jpg)
 ![Stack Follow 3](images/stack3.jpg)

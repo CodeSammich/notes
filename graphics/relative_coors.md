@@ -25,3 +25,4 @@ C. Drawing Pipeline:
 	
 ![Stack Follow](images/stack.jpg)
 ![Stack Follow 2](images/stack2.jpg)
+![Stack Follow 3](images/stack3.jpg)

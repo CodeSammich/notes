@@ -23,3 +23,5 @@ C. Drawing Pipeline:
 	3. Draw the object to the screen
 	4. Clear the point matrix
 	
+![Stack Follow](images/stack.jpg)
+![Stack Follow 2](images/stack2.jpg)
